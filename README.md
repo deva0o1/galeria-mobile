@@ -41,5 +41,42 @@ Campos:
 
 Instale as dependências:
 
+No terminal, dentro da pasta do projeto, execute:
+
 ```bash
-npm install    
+npm install
+```
+
+### 2. Instalar as bibliotecas utilizadas
+
+```bash
+npx expo install expo-sqlite expo-image-picker expo-location react-native-maps
+```
+
+### 3. Iniciar o projeto
+
+```bash
+npx expo start
+```
+
+ou
+
+```bash
+npx expo start -c
+```
+
+O parâmetro `-c` limpa o cache do Expo.
+
+### 4. Executar no celular
+
+1. Instale o aplicativo **Expo Go** no celular
+2. Abra o Expo Go
+3. Escaneie o QR Code exibido no terminal ou navegador
+
+### 5. Utilização
+
+* Digite um título
+* Clique em **“Tirar foto”**
+* Permita acesso à câmera e localização
+* Capture a imagem
+* A foto será salva localmente e exibida na galeria e no mapa
